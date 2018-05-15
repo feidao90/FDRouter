@@ -11,18 +11,20 @@
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* VOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* VOAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* VOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* VOViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		86F50E1B20AAE34400CDEDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F50E0C20AAE34400CDEDA8 /* LaunchScreen.storyboard */; };
+		86F50E1C20AAE34400CDEDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F50E0E20AAE34400CDEDA8 /* Main.storyboard */; };
+		86F50E1D20AAE34400CDEDA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86F50E1020AAE34400CDEDA8 /* InfoPlist.strings */; };
+		86F50E1E20AAE34400CDEDA8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F50E1220AAE34400CDEDA8 /* Images.xcassets */; };
+		86F50E1F20AAE34400CDEDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F50E1320AAE34400CDEDA8 /* main.m */; };
+		86F50E2020AAE34400CDEDA8 /* VOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F50E1520AAE34400CDEDA8 /* VOAppDelegate.m */; };
+		86F50E2120AAE34400CDEDA8 /* VORouter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86F50E1720AAE34400CDEDA8 /* VORouter-Info.plist */; };
+		86F50E2220AAE34400CDEDA8 /* VOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F50E1A20AAE34400CDEDA8 /* VOViewController.m */; };
+		86F50E2520AAE37300CDEDA8 /* VORouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F50E2420AAE37300CDEDA8 /* VORouterManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,28 +47,27 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* VORouter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VORouter-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* VORouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VORouter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* VOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* VOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* VOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VOViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* VOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VOViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* VORouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VORouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8338E66309AB2283A4270006 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F50E0D20AAE34400CDEDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F50E0F20AAE34400CDEDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F50E1120AAE34400CDEDA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86F50E1220AAE34400CDEDA8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		86F50E1320AAE34400CDEDA8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F50E1420AAE34400CDEDA8 /* VOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOAppDelegate.h; sourceTree = "<group>"; };
+		86F50E1520AAE34400CDEDA8 /* VOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOAppDelegate.m; sourceTree = "<group>"; };
+		86F50E1720AAE34400CDEDA8 /* VORouter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VORouter-Info.plist"; sourceTree = "<group>"; };
+		86F50E1820AAE34400CDEDA8 /* VORouter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VORouter-Prefix.pch"; sourceTree = "<group>"; };
+		86F50E1920AAE34400CDEDA8 /* VOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOViewController.h; sourceTree = "<group>"; };
+		86F50E1A20AAE34400CDEDA8 /* VOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOViewController.m; sourceTree = "<group>"; };
+		86F50E2320AAE37300CDEDA8 /* VORouterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VORouterManager.h; sourceTree = "<group>"; };
+		86F50E2420AAE37300CDEDA8 /* VORouterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VORouterManager.m; sourceTree = "<group>"; };
 		8ED386DE91DAF8367400311B /* Pods-VORouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VORouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VORouter_Example/Pods-VORouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C06F17AE444CF2D35FE60147 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3A3CB3BBFF947FA91D59747 /* Pods-VORouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VORouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VORouter/Pods-VORouter.debug.xcconfig"; sourceTree = "<group>"; };
-		E49805E56315AD552BEFB6B5 /* VORouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VORouter.podspec; path = ../VORouter.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +98,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for VORouter */,
+				86F50E0B20AAE34400CDEDA8 /* VORouter */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -129,33 +129,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for VORouter */ = {
-			isa = PBXGroup;
-			children = (
-				6003F59C195388D20070C39A /* VOAppDelegate.h */,
-				6003F59D195388D20070C39A /* VOAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* VOViewController.h */,
-				6003F5A6195388D20070C39A /* VOViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-			);
-			name = "Example for VORouter";
-			path = VORouter;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* VORouter-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* VORouter-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,14 +148,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		86F50E0B20AAE34400CDEDA8 /* VORouter */ = {
 			isa = PBXGroup;
 			children = (
-				E49805E56315AD552BEFB6B5 /* VORouter.podspec */,
-				C06F17AE444CF2D35FE60147 /* README.md */,
-				8338E66309AB2283A4270006 /* LICENSE */,
+				86F50E1420AAE34400CDEDA8 /* VOAppDelegate.h */,
+				86F50E1520AAE34400CDEDA8 /* VOAppDelegate.m */,
+				86F50E1920AAE34400CDEDA8 /* VOViewController.h */,
+				86F50E1A20AAE34400CDEDA8 /* VOViewController.m */,
+				86F50E1820AAE34400CDEDA8 /* VORouter-Prefix.pch */,
+				86F50E0C20AAE34400CDEDA8 /* LaunchScreen.storyboard */,
+				86F50E0E20AAE34400CDEDA8 /* Main.storyboard */,
+				86F50E1020AAE34400CDEDA8 /* InfoPlist.strings */,
+				86F50E1220AAE34400CDEDA8 /* Images.xcassets */,
+				86F50E1320AAE34400CDEDA8 /* main.m */,
+				86F50E1720AAE34400CDEDA8 /* VORouter-Info.plist */,
+				86F50E1620AAE34400CDEDA8 /* VORouter */,
 			);
-			name = "Podspec Metadata";
+			path = VORouter;
+			sourceTree = "<group>";
+		};
+		86F50E1620AAE34400CDEDA8 /* VORouter */ = {
+			isa = PBXGroup;
+			children = (
+				86F50E2320AAE37300CDEDA8 /* VORouterManager.h */,
+				86F50E2420AAE37300CDEDA8 /* VORouterManager.m */,
+			);
+			path = VORouter;
 			sourceTree = "<group>";
 		};
 		8E5835ECEB113DCDCF72A2BB /* Pods */ = {
@@ -274,10 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				86F50E1B20AAE34400CDEDA8 /* LaunchScreen.storyboard in Resources */,
+				86F50E1E20AAE34400CDEDA8 /* Images.xcassets in Resources */,
+				86F50E1D20AAE34400CDEDA8 /* InfoPlist.strings in Resources */,
+				86F50E2120AAE34400CDEDA8 /* VORouter-Info.plist in Resources */,
+				86F50E1C20AAE34400CDEDA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,9 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* VOAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* VOViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				86F50E1F20AAE34400CDEDA8 /* main.m in Sources */,
+				86F50E2520AAE37300CDEDA8 /* VORouterManager.m in Sources */,
+				86F50E2220AAE34400CDEDA8 /* VOViewController.m in Sources */,
+				86F50E2020AAE34400CDEDA8 /* VOAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,14 +335,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,12 +343,28 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+		86F50E0C20AAE34400CDEDA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
+				86F50E0D20AAE34400CDEDA8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		86F50E0E20AAE34400CDEDA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F50E0F20AAE34400CDEDA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F50E1020AAE34400CDEDA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F50E1120AAE34400CDEDA8 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
