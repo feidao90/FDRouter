@@ -12,6 +12,7 @@
 
 /**
  *  跳转界面
+ @param: @{@"class":@"A",@"property":@{@"a":@"123",@"b":@"234"}
  */
 + (void)push:(NSDictionary *)params;
 @end
