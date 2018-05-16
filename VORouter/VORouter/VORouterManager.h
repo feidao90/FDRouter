@@ -13,5 +13,5 @@
 /**
  *  跳转界面
  */
-- (void)push:(NSDictionary *)params;
++ (void)push:(NSDictionary *)params;
 @end

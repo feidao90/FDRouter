@@ -13,7 +13,7 @@
 /**
  *  跳转界面
  */
-- (void)push:(NSDictionary *)params
++ (void)push:(NSDictionary *)params
 {
     // 类名
     NSString *class =[NSString stringWithFormat:@"%@", params[@"class"]];
@@ -35,7 +35,7 @@
     NSDictionary *propertys = params[@"property"];
     [propertys enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
         // 检测这个对象是否存在该属性
-        if ([self checkIsExistPropertyWithInstance:instance verifyPropertyName:key]) {
+        if ([VORouterManager checkIsExistPropertyWithInstance:instance verifyPropertyName:key]) {
             // 利用kvc赋值
             [instance setValue:obj forKey:key];
         }
@@ -54,7 +54,7 @@
 /**
  *  检测对象是否存在该属性
  */
-- (BOOL)checkIsExistPropertyWithInstance:(id)instance verifyPropertyName:(NSString *)verifyPropertyName
++ (BOOL)checkIsExistPropertyWithInstance:(id)instance verifyPropertyName:(NSString *)verifyPropertyName
 {
     unsigned int outCount, i;
     
